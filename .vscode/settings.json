@@ -1,0 +1,7 @@
+{
+  "code-runner.defaultLanguage": "c",
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "cd $dir && clang -std=c99 -Wall mpc.c $fileName -o $fileNameWithoutExt.exe && $fileNameWithoutExt.exe"
+  }
+}
